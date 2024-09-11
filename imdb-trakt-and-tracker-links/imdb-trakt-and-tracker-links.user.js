@@ -6,9 +6,9 @@
 // @match            https://imdb.com/*
 // @match            https://*.imdb.com/*
 // @version          2.4.4
-// @updateURL        https://github.com/danielvigaru/userscripts/imdb-trakt-and-tracker-links.user.js/raw/main/imdb-trakt-and-tracker-links.user.js
-// @downloadURL      https://github.com/danielvigaru/userscripts/imdb-trakt-and-tracker-links.user.js/raw/main/imdb-trakt-and-tracker-links.user.js
-// @homepageURL      https://github.com/danielvigaru/userscripts/imdb-trakt-and-tracker-links.user.js
+// @updateURL        https://github.com/danielvigaru/userscripts/raw/main/imdb-trakt-and-tracker-links/imdb-trakt-and-tracker-links.user.js
+// @downloadURL      https://github.com/danielvigaru/userscripts/raw/main/imdb-trakt-and-tracker-links/imdb-trakt-and-tracker-links.user.js
+// @homepageURL      https://github.com/danielvigaru/userscripts/tree/main/imdb-trakt-and-tracker-links
 // @grant            none
 // ==/UserScript==
 

@@ -3,8 +3,9 @@
 // @icon            https://www.reddit.com/favicon.ico
 // @match           https://www.reddit.com/*
 // @name            Reddit auto theme switcher
-// @downloadURL     https://github.com/danielvigaru/userscripts/reddit-auto-theme-switcher.user.js/raw/master/reddit-auto-theme-switcher.user.js
-// @updateURL       https://github.com/danielvigaru/userscripts/reddit-auto-theme-switcher.user.js/raw/master/reddit-auto-theme-switcher.user.js
+// @downloadURL     https://github.com/danielvigaru/userscripts/raw/main/reddit-auto-theme-switcher/reddit-auto-theme-switcher.user.js
+// @updateURL       https://github.com/danielvigaru/userscripts/raw/main/reddit-auto-theme-switcher/reddit-auto-theme-switcher.user.js
+// @homepageURL     https://github.com/danielvigaru/userscripts/tree/main/reddit-auto-theme-switcher
 // @version         1.1.0
 // ==/UserScript==
 
