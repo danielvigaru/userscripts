@@ -3,6 +3,9 @@
 // @match       https://*/*
 // @grant       none
 // @version     1.0
+// @downloadURL     https://github.com/danielvigaru/userscripts/raw/main/safari-mobile-prevent-zoom-on-input-tap/safari-mobile-prevent-zoom-on-input-tap.user.js
+// @updateURL       https://github.com/danielvigaru/userscripts/raw/main/safari-mobile-prevent-zoom-on-input-tap/safari-mobile-prevent-zoom-on-input-tap.user.js
+// @homepageURL     https://github.com/danielvigaru/userscripts/tree/main/safari-mobile-prevent-zoom-on-input-tap
 // ==/UserScript==
 
 window.addEventListener('load', () => {
