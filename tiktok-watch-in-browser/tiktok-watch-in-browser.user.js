@@ -2,7 +2,7 @@
 // @name        TikTok Watch in Browser
 // @match       https://www.tiktok.com/*/video/*
 // @grant       none
-// @version     1.1.0
+// @version     1.2.0
 // @downloadURL https://github.com/danielvigaru/userscripts/raw/main/tiktok-watch-in-browser/tiktok-watch-in-browser.user.js
 // @updateURL   https://github.com/danielvigaru/userscripts/raw/main/tiktok-watch-in-browser/tiktok-watch-in-browser.user.js
 // @homepageURL https://github.com/danielvigaru/userscripts/tree/main/tiktok-watch-in-browser
@@ -25,5 +25,31 @@
         document.body.appendChild(blockerElement);
 
         window.location = `${protocol}//${hostname}${pathname}`;
+    } else {
+        const observer = new MutationObserver(mutations => {
+            const original = document.querySelector('#sharing-main-video-el');
+
+            if (original) {
+                observer.disconnect();
+                handleVideo(original);
+            }
+        });
+
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true,
+        });
+    }
+
+    function handleVideo(originalVideo) {
+        const newVideo = document.createElement('video');
+        newVideo.src = originalVideo.src;
+        newVideo.controls = true;
+        newVideo.autoplay = true;
+        newVideo.style.maxHeight = '100%';
+        newVideo.style.maxWidth = '100%';
+
+        document.body.innerHTML = '';
+        document.body.appendChild(newVideo);
     }
 })();
