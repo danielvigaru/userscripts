@@ -5,7 +5,7 @@
 // @license          MIT
 // @match            https://imdb.com/title/*
 // @match            https://*.imdb.com/title/*
-// @version          3.0.0
+// @version          3.0.1
 // @updateURL        https://github.com/danielvigaru/userscripts/raw/main/imdb-trakt-and-tracker-links/imdb-trakt-and-tracker-links.user.js
 // @downloadURL      https://github.com/danielvigaru/userscripts/raw/main/imdb-trakt-and-tracker-links/imdb-trakt-and-tracker-links.user.js
 // @homepageURL      https://github.com/danielvigaru/userscripts/tree/main/imdb-trakt-and-tracker-links
@@ -35,6 +35,7 @@ window.addEventListener("load", () => {
                 flex-direction: column;
                 border: 2px solid hsl(240, 10%, 92%);
                 border-radius: 10px;
+                font-family: monospace;
             }
             .imdb-external-links-modal:open {
                 display: flex;
