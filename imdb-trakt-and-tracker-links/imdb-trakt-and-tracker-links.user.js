@@ -5,7 +5,7 @@
 // @license          MIT
 // @match            https://imdb.com/title/*
 // @match            https://*.imdb.com/title/*
-// @version          3.0.1
+// @version          3.0.2
 // @updateURL        https://github.com/danielvigaru/userscripts/raw/main/imdb-trakt-and-tracker-links/imdb-trakt-and-tracker-links.user.js
 // @downloadURL      https://github.com/danielvigaru/userscripts/raw/main/imdb-trakt-and-tracker-links/imdb-trakt-and-tracker-links.user.js
 // @homepageURL      https://github.com/danielvigaru/userscripts/tree/main/imdb-trakt-and-tracker-links
@@ -82,7 +82,7 @@ window.addEventListener("load", () => {
                 &#215;
             </button>
 
-            <a data-imdb-external-link target="_blank" href="https://trakt.tv/search/imdb?q=tt{movieId}">
+            <a data-imdb-external-link target="_blank" href="https://app.trakt.tv/search?m=media&q=tt{movieId}">
                 Trakt
             </a>
             <a
